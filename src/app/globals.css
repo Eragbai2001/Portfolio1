@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.profile-card {
+  @apply grid grid-cols-1 md:grid-cols-2 mx-5 md:mx-36 gap-4 mt-16 items-start;
+}
+
+.text-col {
+  @apply text-[#6c6c6c];
+}
+
+.text-size {
+  @apply text-4xl font-bold;
+}
+
+.profile-content {
+  @apply flex flex-col gap-2;
+}
+
+.description {
+  @apply w-full text-xl;
+}
+
+.link {
+  @apply bg-black text-white flex w-[133px] h-[44px] justify-center items-center gap-2 rounded-2xl ;
+}
+
+.custom-blend {
+  @apply  w-full h-48 bg-gradient-to-r from-custom-purple to-custom-blue ;
+}

@@ -9,11 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'custom-orange': '#D97706',
+        'custom-purple': '#7C3AED',
+        'custom-green': '#15803D',
+        'custom-blue': '#1D4ED8',
+      },
+      opacity: {
+        '44': '0.44',
+      },
+      mixBlendMode: {
+        'color-dodge': 'color-dodge',
       },
     },
   },
   plugins: [],
 };
+
 export default config;

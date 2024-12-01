@@ -1,0 +1,14 @@
+[
+    {
+      "id": "1",
+      "title": "React Icon",
+      "description": "An icon for React.",
+      "slug": "react-icon"
+    },
+    {
+      "id": "2",
+      "title": "Next.js Icon",
+      "description": "An icon for Next.js.",
+      "slug": "nextjs-icon"
+    }
+  ]
